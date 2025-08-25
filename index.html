@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moda y Estilo</title>
+  <style>
+    /* ====== ESTILOS GENERALES ====== */
+    body {
+      font-family: "Playfair Display", "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd url("file:///C|/Users/LABORATORIO 01/Documents/imagenes/textura-moda.jpg") repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* ====== INTEGRANTES ====== */
+    .integrantes {
+      text-align: center;
+      margin: 40px auto;
+    }
+
+    .cuadro-integrantes {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 20px 40px;
+      border-radius: 12px;
+      border: 2px solid #d63384;
+      box-shadow: 0 0 15px rgba(214, 51, 132, 0.4);
+    }
+
+    .cuadro-integrantes p {
+      margin: 10px 0;
+      color: #222;
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+
+    /* ====== ENCABEZADO ====== */
+    header {
+      background: linear-gradient(90deg, #d63384, #e75480, #ff8fa3);
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #f8d7da;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      color: #fff;
+      text-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 15px 0 0 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: #fff;
+      color: #d63384;
+    }
+
+    /* ====== BANNER ====== */
+    .banner {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .banner img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+
+    .banner-texto {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(214, 51, 132, 0.7);
+      padding: 15px;
+      border-radius: 12px;
+      font-size: 1.5em;
+      font-family: "Playfair Display", serif;
+    }
+
+    /* ====== INTRODUCCIÓN ====== */
+    .intro {
+      text-align: center;
+      margin: 40px 0;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 20px rgba(214, 51, 132, 0.3);
+    }
+
+    .intro img {
+      margin-top: 15px;
+      border-radius: 50%;
+      box-shadow: 0px 0px 15px rgba(214, 51, 132, 0.4);
+    }
+
+    /* ====== NOTICIAS ====== */
+    .noticias {
+      padding: 20px;
+    }
+
+    .tarjetas {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      padding: 15px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0px 0px 15px rgba(214, 51, 132, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 20px rgba(214, 51, 132, 0.5);
+    }
+
+    /* ====== PIE DE PÁGINA ====== */
+    footer {
+      background: linear-gradient(90deg, #d63384, #e75480, #ff8fa3);
+      text-align: center;
+      padding: 15px;
+      border-top: 3px solid #f8d7da;
+      margin-top: 30px;
+      color: #fff;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ENCABEZADO -->
+<header>
+  <h1>Moda y Estilo</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+        <li><a href="Tendencia.html">Tendencias</a></li>
+        <li><a href="Noticia.html">Noticias</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- BANNER -->
+ <section class="banner">
+  <a href="Descubre.html" class="banner-texto">Descubre tu estilo</a>
+</section>
+
+
+  <!-- INTRO -->
+<section class="intro">
+    <h2>Bienvenidos</h2>
+  <p>La moda no solo se lleva, se vive. Aquí encontrarás lo último en tendencias y estilo personal.</p>
+    <img src="6.jpg" alt="Modelo de moda" width="312" border="0">
+</section>
+
+<!-- TARJETAS -->
+  <section class="noticias">
+    <h2 style="text-align:center;">Últimas Noticias</h2>
+    <div class="tarjetas">
+      <div class="card">
+        <img src="3.jpg" alt="Look 1">
+        <h3>Look Casual</h3>
+        <p>El outfit perfecto para el día a día.</p>
+      </div>
+      <div class="card"> <img src="2.jpg" alt="Look 2">
+        <h3>Look Elegante</h3>
+        <p>Brilla en cada ocasión especial.</p>
+      </div>
+      <div class="card">
+        <img src="7.jpg" alt="Look 3">
+        <h3>Look Urbano</h3>
+        <p>Estilo cómodo y moderno para la ciudad.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+<footer>
+   <p>.</p>
+  <p>&copy; 2025 Moda y Estilo - Todos los derechos reservados</p>
+<a href="https://www.instagram.com/versace" target="_blank">Instagram</a> | 
+  <a href="https://www.facebook.com/versace" target="_blank">Facebook</a> | 
+  <a href="https://twitter.com/versace" target="_blank">Twitter</a>
+</footer>
+
+
+</body>
+</html>
